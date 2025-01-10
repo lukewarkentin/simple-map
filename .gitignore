@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Shapefiles
+data/map-data/
+*.shp
+*.shx
+*.prj
+*.dbf
+*.cpg
+*.sbn
+*.xml
+*.zip

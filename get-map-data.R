@@ -9,6 +9,10 @@ require(here)
 require(sf)
 require(purrr)
 
+if( !dir.exists(here("data", "map-data"))) {
+newfolder <- "map-data"
+dir.create(here("data"), newfolder) }
+
 # where to save data
 path <- here("data/map-data")
 
